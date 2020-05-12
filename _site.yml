@@ -1,0 +1,20 @@
+name: "datalab"
+title: "University of Milano-Bicocca"
+description: |
+  DEMS
+navbar:
+  logo: images/logounimib.png
+  right:
+    - text: "PROJECTS"
+      href: index.html
+    - text: "LABS"
+      href: labs.html
+    - text: "DEMS"
+      href: https://dems.unimib.it/it/dipartimento/chi-siamo
+    - text: "ABOUT"
+      href: about.html
+output:
+  distill::distill_article:
+    css: styles.css
+
+
