@@ -9,8 +9,6 @@ navbar:
       href: projects.html
     - text: "LABS"
       href: labs.html
-    - text: "DEMS"
-      href: https://dems.unimib.it/it/ricerca/centri-ricerca
     - text: "ABOUT"
       href: about.html
 output:
