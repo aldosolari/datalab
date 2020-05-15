@@ -15,10 +15,11 @@ library(rmarkdown)
 library(stringr)
 ```
 
-# Team
+# Group
 
 ```{r}
-USERS <- read.csv("/Users/aldosolari/Documents/mygithub/datalab/Users.csv")
+rm(list=ls())
+load("USERS.RData")
 USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
 USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
 USERS$POS[17]<-"external"
