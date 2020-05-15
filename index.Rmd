@@ -6,4 +6,4 @@ site: distill::distill_website
 The Data Science Lab is a competence center combining the expertise of leading scientists in the key research fields of data science. 
 **datalab** builds on synergies and leverages on collective expertise to solve real-world data challenges by trasforming information to knowledge. 
 
-The datalab is housed within the [DEMS](https://dems.unimib.it/it/ricerca/centri-ricerca) at University of Milano-Bicocca.
+datalab is housed within the [DEMS](https://dems.unimib.it/it/ricerca/centri-ricerca) at University of Milano-Bicocca.
