@@ -1,0 +1,57 @@
+---
+title: "ds-mb101"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1
+---
+
+```{r}
+library(knitr)
+library(dplyr)
+library(ggpubr)
+library(kableExtra)
+library(rmarkdown)
+library(stringr)
+```
+
+# Team
+
+```{r}
+USERS <- read.csv("/Users/aldosolari/Documents/mygithub/datalab/Users.csv")
+USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
+USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
+USERS$POS[17]<-"external"
+```
+
+```{r}
+grp = "ds-mb101"
+usrs = filter(USERS, GROUP == grp) %>% 
+  select("COGNOME","NOME","ID","ROLE","POS","TUTOR") %>%
+  arrange(ROLE, COGNOME)
+kable(usrs, row.names=F)
+```
+
+# Projects
+
+1. [Hybrid approaches based on Bayesian Optimization and Deep Learning for self driving cars: steering wheel angle
+prediction]()
+
+    | | |
+    |-|---|
+    | PI | Matteo Borrotti |
+    | TYPE | |
+    | KEYWORDS |  |
+    | START/END | |
+    | OUTPUT | |
+
+2. [A study of Deep Reinforcement Learning approaches for automated criptocurrency trading and portfolio management]()
+
+    | | |
+    |-|---|
+    | PI | Matteo Borrotti |
+    | TYPE |  |
+    | KEYWORDS |  |
+    | START/END | |
+    | OUTPUT | |
+

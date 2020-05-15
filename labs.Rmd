@@ -1,0 +1,18 @@
+---
+title: "labs"
+---
+
+# [lab Azure](azure.html)
+
+Working groups supported by Azure virtual machines
+
+
+# lab U7
+
+Building U7, first floor. 
+
+
+
+
+
+

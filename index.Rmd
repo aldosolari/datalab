@@ -2,3 +2,6 @@
 title: "datalab"
 site: distill::distill_website
 ---
+
+The *Data Science Lab* is a competence center combining the expertise of leading scientists in the key research fields of *data science* with the goal of establishing synergies and leverage on collective expertise. 
+

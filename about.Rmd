@@ -1,0 +1,5 @@
+---
+title: "about"
+---
+
+The Data Science Lab is a competence center born at the beginning of 2019 in fulfillment of the Excellence Department Grant won by the Department of Economics, Management and Statistics as one of the top Italian departments in the field of economics and statistics.

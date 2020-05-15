@@ -1,0 +1,54 @@
+---
+title: "lab Azure"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1
+---
+
+```{r}
+library(knitr)
+library(dplyr)
+library(ggpubr)
+library(kableExtra)
+library(rmarkdown)
+library(stringr)
+```
+
+```{r}
+USERS <- read.csv("/Users/aldosolari/Documents/mygithub/datalab/Users.csv")
+USERS <- USERS[1:57, ]
+USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
+USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
+USERS$POS[17]<-"external"
+```
+
+
+# Teams
+
+| Economics | Statistics | Projects |
+|----------|------------|----------|
+| de-as101 | ds-cl101 | cm21047 |
+| de-cb101 | [ds-mb101](ds-mb101.html) | le-am101 |
+| de-tm101 | ds-mp101 | cs-ux110 |
+| de-pt101 | [ds-ac101](ds-ac101.html) |  |
+| ds-ab101 | ds-rb101 |  |
+
+# Admin
+
+Giovanni Pelosi
+
+| |  |  |
+|--|--|--|
+| mn-si501 | xt-si701 | xt-si601 |
+
+# List of users
+
+```{r}
+usrs = filter(USERS) %>% select("COGNOME","NOME", "POS", "ROLE", "GROUP") %>% arrange(POS,COGNOME)
+paged_table(usrs)
+```
+
+
+
+

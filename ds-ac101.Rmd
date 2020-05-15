@@ -1,0 +1,75 @@
+---
+title: "ds-ac101"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1
+---
+
+```{r}
+library(knitr)
+library(dplyr)
+library(ggpubr)
+library(kableExtra)
+library(rmarkdown)
+library(stringr)
+```
+
+# Team
+
+```{r}
+USERS <- read.csv("/Users/aldosolari/Documents/mygithub/datalab/Users.csv")
+USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
+USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
+USERS$POS[17]<-"external"
+```
+
+```{r}
+grp = "ds-ac101"
+usrs = filter(USERS, GROUP == grp) %>% 
+  select("COGNOME","NOME","ID", "ROLE","POS") %>%
+  arrange(ROLE, COGNOME)
+kable(usrs, row.names=F)
+```
+
+# Projects
+
+1. [Multi-information source Bayesian optimization via Augmented Gaussian Processes]()
+
+    | | |
+    |-|---|
+    | PI | Antonio Candelieri |
+    | TYPE |  |
+    | KEYWORDS |  |
+    | START/END | |
+    | OUTPUT | |
+
+2. [Automated Tiny Machine Learning]()
+
+    | | |
+    |-|---|
+    | PI | Antonio Candelieri |
+    | TYPE |  |
+    | KEYWORDS |  |
+    | START/END | |
+    | OUTPUT | |
+
+3. [Composition of kernel and acquisition functions for High Dimensional Bayesian Optimization]()
+
+    | | |
+    |-|---|
+    | PI | Antonio Candelieri |
+    | TYPE |  |
+    | KEYWORDS |  |
+    | START/END | |
+    | OUTPUT | |
+
+4. [Learning Optimal Control of Water Distribution Networks through Sequential Model-based Optimization]()
+
+    | | |
+    |-|---|
+    | PI | Antonio Candelieri |
+    | TYPE |  |
+    | KEYWORDS |  |
+    | START/END | |
+    | OUTPUT | |
