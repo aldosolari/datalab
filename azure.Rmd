@@ -24,7 +24,7 @@ USERS$POS[17]<-"external"
 ```
 
 
-# Teams
+# Groups
 
 | Economics | Statistics | Projects |
 |----------|------------|----------|
@@ -34,14 +34,6 @@ USERS$POS[17]<-"external"
 | de-pt101 | [ds-ac101](ds-ac101.html) |  |
 | ds-ab101 | ds-rb101 |  |
 
-# Admin
-
-Giovanni Pelosi
-
-| |  |  |
-|--|--|--|
-| mn-si501 | xt-si701 | xt-si601 |
-
 # List of users
 
 ```{r}
@@ -49,6 +41,15 @@ usrs = filter(USERS) %>% select("COGNOME","NOME", "POS", "ROLE", "GROUP") %>% ar
 paged_table(usrs)
 ```
 
+# Admin
+
+Giovanni Pelosi
+
+| Sistemi |
+|--|
+| mn-si501 | 
+| xt-si701 | 
+| xt-si601 |
 
 
 
