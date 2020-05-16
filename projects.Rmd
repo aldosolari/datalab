@@ -2,6 +2,6 @@
 title: "projects"
 ---
 
-Blog-like listing, e.g. 
+Blog listing, e.g. 
 
 ![](https://rstudio.github.io/distill/images/site-listing.png)
