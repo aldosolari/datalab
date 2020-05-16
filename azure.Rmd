@@ -21,6 +21,7 @@ load("USERS.RData")
 USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
 USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
 USERS$POS[17]<-"external"
+USERS$POS[19]<-"external"
 ```
 
 
