@@ -36,7 +36,7 @@ kable(usrs, row.names=F)
 
 # Projects
 
-1. [Estimation of high dimenensional multivariate stochastic volatility
+1. [Estimation of high dimensional multivariate stochastic volatility
 models]()
 
     | | |
