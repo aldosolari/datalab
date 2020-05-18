@@ -1,0 +1,59 @@
+---
+title: "de-as101"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1
+---
+
+```{r}
+library(knitr)
+library(dplyr)
+library(ggpubr)
+library(kableExtra)
+library(rmarkdown)
+library(stringr)
+```
+
+# Group
+
+```{r}
+rm(list=ls())
+load("USERS.RData")
+USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
+USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
+USERS$POS[17]<-"external"
+USERS$POS[19]<-"external"
+```
+
+```{r}
+grp = "de-as101"
+usrs = filter(USERS, GROUP == grp) %>% 
+  select("COGNOME","NOME","ID","ROLE","POS","TUTOR") %>%
+  arrange(ROLE, COGNOME)
+kable(usrs, row.names=F)
+```
+
+# Projects
+
+1. [Preemptive Policies Vs Fundamental Rights: Implementing the Proportionality Approach]()
+
+    | | |
+    |-|---|
+    | PI | Alessandro Santoro |
+    | COLLABORATORS |  |
+    | TYPE |  |
+    | KEYWORDS | |
+    | START/END | |
+    | OUTPUT | |
+    
+2. [Optimizing Tax Administration Policies with Machine Learning]()
+
+    | | |
+    |-|---|
+    | PI | Alessandro Santoro |
+    | COLLABORATORS |  |
+    | TYPE |  |
+    | KEYWORDS | |
+    | START/END | |
+    | OUTPUT | |

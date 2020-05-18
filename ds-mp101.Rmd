@@ -1,0 +1,61 @@
+---
+title: "ds-mp101"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1
+---
+
+```{r}
+library(knitr)
+library(dplyr)
+library(ggpubr)
+library(kableExtra)
+library(rmarkdown)
+library(stringr)
+```
+
+# Group
+
+```{r}
+rm(list=ls())
+load("USERS.RData")
+USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
+USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
+USERS$POS[17]<-"external"
+USERS$POS[19]<-"external"
+```
+
+```{r}
+grp = "ds-mp101"
+usrs = filter(USERS, GROUP == grp) %>% 
+  select("COGNOME","NOME","ID","ROLE","POS","TUTOR") %>%
+  arrange(ROLE, COGNOME)
+kable(usrs, row.names=F)
+```
+
+# Projects
+
+1. [Estimation of high dimenensional multivariate stochastic volatility
+models]()
+
+    | | |
+    |-|---|
+    | PI | Matteo Pelagatti |
+    | COLLABORATORS |  |
+    | TYPE |  |
+    | KEYWORDS | |
+    | START/END | |
+    | OUTPUT | |
+    
+2. [Measuring dependence between random variables and auto-dependence
+of time series]()
+
+    | | |
+    |-|---|
+    | PI | Matteo Pelagatti |
+    | COLLABORATORS |  |
+    | TYPE |  |
+    | KEYWORDS | |
+    | START/END | |
+    | OUTPUT | |

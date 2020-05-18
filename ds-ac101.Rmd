@@ -40,37 +40,37 @@ kable(usrs, row.names=F)
     | | |
     |-|---|
     | PI | Antonio Candelieri |
-    | TYPE |  |
-    | KEYWORDS |  |
-    | START/END | |
-    | OUTPUT | |
+    | TYPE | Research |
+    | KEYWORDS | Multi Information Source Optimization, Bayesian Optimization, Gaussian Processes |
+    | START/END | 2020-02-01 - ongoing |
+    | OUTPUT | A paper under review, submitted to ICANN 2020 ([29th International Conference on Artificial Neural Networks](https://e-nns.org/icann2020/)): Candelieri A., Archetti F., Ponti A., Perego R. "Energy Efficient Hyperparameters tuning through Augmented Gaussian Processes and Multi-information Source Optimization" |
 
 2. [Automated Tiny Machine Learning]()
 
     | | |
     |-|---|
     | PI | Antonio Candelieri |
-    | TYPE |  |
-    | KEYWORDS |  |
-    | START/END | |
-    | OUTPUT | |
+    | TYPE | Research |
+    | KEYWORDS | Automated Machine Learning, Tiny Machine Learning, Bayesian Optimization under unknown constraints |
+    | START/END | 2020-03-01 - ongoing |
+    | OUTPUT | A paper under review, submitted to the Special Issue "Automation in AI and Machine Learning", in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, [CfP](https://ccc.inaoep.mx/~hugojair/pmwiki/index.php?n=Main.SpecialIssueOnAutoMLAtTPAMI)): Perego R., Candelieri A., Archetti F., Pau D., "AutoTinyML for microcontrollers: dealing with black-box deployability" |
 
 3. [Composition of kernel and acquisition functions for High Dimensional Bayesian Optimization]()
 
     | | |
     |-|---|
     | PI | Antonio Candelieri |
-    | TYPE |  |
-    | KEYWORDS |  |
-    | START/END | |
-    | OUTPUT | |
+    | TYPE | Research |
+    | KEYWORDS | Bayesian Optimization, High-Dimensionality, Kernel composition |
+    | START/END | 2020-12-01 - ongoing |
+    | OUTPUT | A paper accepted to LION 14 (the 14th Learning and Intelligent Optimization Conference): Candelieri A., Giordani I., Perego R., Archetti F. "Composition of kernel and acquisition functions for High Dimensional Bayesian Optimization" |
 
 4. [Learning Optimal Control of Water Distribution Networks through Sequential Model-based Optimization]()
 
     | | |
     |-|---|
     | PI | Antonio Candelieri |
-    | TYPE |  |
+    | TYPE | Research |
     | KEYWORDS |  |
-    | START/END | |
-    | OUTPUT | |
+    | START/END | 2020-12-01 - ongoing |
+    | OUTPUT | A paper accepted to LION 14 (the 14th Learning and Intelligent Optimization Conference): Candelieri A., Galuzzi B., Giordani I, Archetti F. "Learning Optimal Control of Water Distribution Networks through Sequential Model-based Optimization" |

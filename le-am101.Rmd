@@ -1,0 +1,49 @@
+---
+title: "le-am101"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1
+---
+
+```{r}
+library(knitr)
+library(dplyr)
+library(ggpubr)
+library(kableExtra)
+library(rmarkdown)
+library(stringr)
+```
+
+# Group
+
+```{r}
+rm(list=ls())
+load("USERS.RData")
+USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
+USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
+USERS$POS[17]<-"external"
+USERS$POS[19]<-"external"
+```
+
+```{r}
+grp = "le-am101"
+usrs = filter(USERS, GROUP == grp) %>% 
+  select("COGNOME","NOME","ID","ROLE","POS","TUTOR") %>%
+  arrange(ROLE, COGNOME)
+kable(usrs, row.names=F)
+```
+
+# Projects
+
+1. [Analytics CTC]()
+
+    | | |
+    |-|---|
+    | PI | TBD |
+    | COLLABORATORS |  |
+    | TYPE | Progetto commissionato dal Consorzio per la Tutela del Credito sulla costruzione di indicatori di *credit scoring* basati su dati transazionali dei movimenti dei conti correnti come da normativa PSD2 |
+    | DEPARTMENTS | DEMS, DISEADE, DISCO |
+    | KEYWORDS | |
+    | START/END |  |
+    | OUTPUT |   |

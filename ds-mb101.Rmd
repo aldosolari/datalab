@@ -41,19 +41,65 @@ prediction]()
 
     | | |
     |-|---|
-    | PI | Matteo Borrotti |
-    | TYPE | |
-    | KEYWORDS |  |
-    | START/END | |
-    | OUTPUT | |
+    | PI |  Matteo Borrotti |
+    | COLLABORATORS | Antonio Candelieri |
+    | TYPE |  Research  |
+    | KEYWORDS |  Deep Reinforcement Learning, Adversarial Learning, Hyperparameter optimization, Self driving cars |
+    | START/END | 2020/01 - ongoing |
+    | OUTPUT |  An hybrid approach based on Bayesian Optimization and Deep Learning for steering wheel angle prediction, working paper |
 
 2. [A study of Deep Reinforcement Learning approaches for automated criptocurrency trading and portfolio management]()
 
     | | |
     |-|---|
-    | PI | Matteo Borrotti |
+    | PI |  Matteo Borrotti |
+    | COLLABORATORS | --- |
+    | TYPE |  Research  |
+    | KEYWORDS |  Deep Reinforcement Learning, Multi agent systems, Algorithmic trading, Portfolio management |
+    | START/END | 2019/09 - on going   |
+    | OUTPUT | A deep Q-learning portfolio management framework for the cryptocurrency market, working paper. Lucarelli, G., and Borrotti, M., A deep reinforcement learning approach for automated cryptocurrency trading, In J. MacIntyre et al. (Eds.), Artificial Intelligence Applications and Innovations , pp. 247–258, 2019 |
+
+3. [New regression models for constrained data]()
+
+    | | |
+    |-|---|
+    | PI | Roberto Ascari  |
+    | COLLABORATORS | |
     | TYPE |  |
     | KEYWORDS |  |
-    | START/END | |
-    | OUTPUT | |
+    | START/END |   |
+    | OUTPUT |  |
+    
+4. [Generalized species sampling model for nonparametric Bayesian inference]()
+
+    | | |
+    |-|---|
+    | PI | Andrea Ongaro  |
+    | COLLABORATORS | |
+    | TYPE |  |
+    | KEYWORDS |  |
+    | START/END |   |
+    | OUTPUT |  |
+    
+5. [Stratified survival regression via Bayesian nonparametric mixtures]()
+
+    | | |
+    |-|---|
+    | PI | Bernardo Nipoti |
+    | COLLABORATORS | |
+    | TYPE |  |
+    | KEYWORDS |  |
+    | START/END |   |
+    | OUTPUT |  |
+    
+6. [Approximate Bayesian inference for latent random partitions]()
+
+    | | |
+    |-|---|
+    | PI | Riccardo Corradin |
+    | COLLABORATORS | |
+    | TYPE |  |
+    | KEYWORDS |  |
+    | START/END |   |
+    | OUTPUT |  |
 
