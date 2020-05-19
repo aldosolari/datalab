@@ -18,7 +18,6 @@ library(stringr)
 # Group
 
 ```{r}
-rm(list=ls())
 load("USERS.RData")
 USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
 USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
@@ -36,20 +35,22 @@ kable(usrs, row.names=F)
 
 # Projects
 
-1. [Estimation of high dimensional multivariate stochastic volatility
-models]()
+1. Estimation of high dimensional multivariate stochastic volatility
+models
 
     | | |
     |-|---|
     | PI | Matteo Pelagatti |
-    | COLLABORATORS |  |
-    | TYPE |  |
-    | KEYWORDS | |
-    | START/END | |
-    | OUTPUT | |
+      | COLLABORATORS | Giacomo Sbrana (NEOMA Business School) |
+    | TYPE | Scientific research |
+    | KEYWORDS | Finance, high dimensional data, portfolio management, Kalman filter |
+    | START/END | 2018-2019 |
+    | OUTPUT | Journal Article |
+
+
     
-2. [Measuring dependence between random variables and auto-dependence
-of time series]()
+2. Measuring dependence between random variables and auto-dependence
+of time series
 
     | | |
     |-|---|

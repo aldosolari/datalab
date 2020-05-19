@@ -1,5 +1,5 @@
 ---
-title: "DEMS > datalab"
+title: "datalab"
 site: distill::distill_website
 ---
 

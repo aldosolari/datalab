@@ -18,7 +18,6 @@ library(stringr)
 # Group
 
 ```{r}
-rm(list=ls())
 load("USERS.RData")
 USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
 USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
@@ -36,7 +35,7 @@ kable(usrs, row.names=F)
 
 # Projects
 
-1. [TBD]()
+1. TBD
 
     | | |
     |-|---|

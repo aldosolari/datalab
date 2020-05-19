@@ -18,7 +18,6 @@ library(stringr)
 # Group
 
 ```{r}
-rm(list=ls())
 load("USERS.RData")
 USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
 USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
@@ -36,14 +35,13 @@ kable(usrs, row.names=F)
 
 # Projects
 
-1. [Analytics CTC]()
+1. Analytics CTC
 
     | | |
     |-|---|
-    | PI | TBD |
-    | COLLABORATORS |  |
-    | TYPE | Progetto commissionato dal Consorzio per la Tutela del Credito sulla costruzione di indicatori di *credit scoring* basati su dati transazionali dei movimenti dei conti correnti come da normativa PSD2 |
-    | DEPARTMENTS | DEMS, DISEADE, DISCO |
-    | KEYWORDS | |
-    | START/END |  |
-    | OUTPUT |   |
+    | PI | Paola Bongini (DISEADE), Andrea Maurino (DISCO), Matteo Pelagatti (DEMS) |
+    | COLLABORATORS | Matteo Borrotti (DEMS), Michele Ciavotta (DISCO),Caterina Liberati (DEMS), Paolo Nicoli (DISCO), Nadia Olivero (DISEADE), Matteo Palmonari (DISCO) |
+    | TYPE | Ricerca commissionata (conto terzi) |
+    | KEYWORDS | Credit scoring, transactional data, banking, machine learning, profiling |
+    | START/END | gennaio 2020 - gennaio 2021 |
+    | OUTPUT | Modelli di credit scoring basato su dati transazionali e profilazione dei clienti in base a dati transazionali |

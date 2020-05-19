@@ -18,7 +18,6 @@ library(stringr)
 # Group
 
 ```{r}
-rm(list=ls())
 load("USERS.RData")
 USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
 USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
@@ -35,7 +34,7 @@ kable(usrs, row.names=F)
 
 # Projects
 
-1. [Multi-information source Bayesian optimization via Augmented Gaussian Processes]()
+1. Multi-information source Bayesian optimization via Augmented Gaussian Processes
 
     | | |
     |-|---|
@@ -45,7 +44,7 @@ kable(usrs, row.names=F)
     | START/END | 2020-02-01 - ongoing |
     | OUTPUT | A paper under review, submitted to ICANN 2020 ([29th International Conference on Artificial Neural Networks](https://e-nns.org/icann2020/)): Candelieri A., Archetti F., Ponti A., Perego R. "Energy Efficient Hyperparameters tuning through Augmented Gaussian Processes and Multi-information Source Optimization" |
 
-2. [Automated Tiny Machine Learning]()
+2. Automated Tiny Machine Learning
 
     | | |
     |-|---|
@@ -55,7 +54,7 @@ kable(usrs, row.names=F)
     | START/END | 2020-03-01 - ongoing |
     | OUTPUT | A paper under review, submitted to the Special Issue "Automation in AI and Machine Learning", in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, [CfP](https://ccc.inaoep.mx/~hugojair/pmwiki/index.php?n=Main.SpecialIssueOnAutoMLAtTPAMI)): Perego R., Candelieri A., Archetti F., Pau D., "AutoTinyML for microcontrollers: dealing with black-box deployability" |
 
-3. [Composition of kernel and acquisition functions for High Dimensional Bayesian Optimization]()
+3. Composition of kernel and acquisition functions for High Dimensional Bayesian Optimization
 
     | | |
     |-|---|
@@ -65,7 +64,7 @@ kable(usrs, row.names=F)
     | START/END | 2020-12-01 - ongoing |
     | OUTPUT | A paper accepted to LION 14 (the 14th Learning and Intelligent Optimization Conference): Candelieri A., Giordani I., Perego R., Archetti F. "Composition of kernel and acquisition functions for High Dimensional Bayesian Optimization" |
 
-4. [Learning Optimal Control of Water Distribution Networks through Sequential Model-based Optimization]()
+4. Learning Optimal Control of Water Distribution Networks through Sequential Model-based Optimization
 
     | | |
     |-|---|

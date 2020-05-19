@@ -1,0 +1,30 @@
+---
+title: ""
+---
+
+**Preemptive Policies Vs Fundamental Rights: Implementing the Proportionality Approach**
+
+*Abstract*: Preemptive policies diminish the targeted individual's range of future options
+with the aim to prevent an individual antisocial behaviour that has been observed
+in the past and may occur in the future. Examples include no-fly lists to prevent
+terrorist attacks, predictive policing to prevent crimes and policies aiming at pre-
+venting tax evasion. These policies may conflict with fundamental rights because
+of both the data they use and the way these data are used. Preemptive policies
+are based on a scrutiny of past individual behaviour, virtually including the whole
+set of observable individual consumption and leisure choices, which poses a threat
+to privacy rights, especially because the set of available information is continuously
+growing due to expansion of Internet and other big data sources. Also, preemptive
+policies use machine learning methods that can be black boxes which are impossible
+to interpret for the individual so that the presumption of innocence and some funda-
+mental rights of the defence are seriously undermined. According to the European
+and Commonwealth legal tradition, the conflict between public interests and funda-
+mental individual rights should be solved using the proportionality principle, whose
+application, in turn, requires a cost and benet analysis of the policy at stake. In this paper we do two things. 
+First, we build a reference cost-benet model and we
+illustrate how it should be used by a lawmaker or a judge implement the proportion-
+ality principle in the conflict between the purposes of the policy and privacy rights.
+Second, we show how this approach can be applied using decision trees or random
+forests model that also allow some interpretation of the selection rule and therefore
+safeguard, at least to some extent, the individual's right of defence.
+
+

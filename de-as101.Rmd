@@ -18,7 +18,6 @@ library(stringr)
 # Group
 
 ```{r}
-rm(list=ls())
 load("USERS.RData")
 USERS$NOME <- str_split(as.character(USERS$NAME), " ", simplify = TRUE)[,1]
 USERS$COGNOME <- str_split(as.character(USERS$NAME), " ", n=2, simplify = TRUE)[,2]
@@ -36,7 +35,7 @@ kable(usrs, row.names=F)
 
 # Projects
 
-1. [Preemptive Policies Vs Fundamental Rights: Implementing the Proportionality Approach]()
+1. [Preemptive Policies Vs Fundamental Rights: Implementing the Proportionality Approach](abstracts/de-as101_P1.html)
 
     | | |
     |-|---|
@@ -47,7 +46,7 @@ kable(usrs, row.names=F)
     | START/END | |
     | OUTPUT | |
     
-2. [Optimizing Tax Administration Policies with Machine Learning]()
+2. [Optimizing Tax Administration Policies with Machine Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3552533)
 
     | | |
     |-|---|
